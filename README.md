@@ -3,6 +3,21 @@
 
 This project is a combination of server + client, and there should be a pure client made using Winform in the future.
 
+## Project all warnings
+```csharp
+ManagementObjectSearcher searcher = new("SELECT * FROM Win32_ComputerSystem");
+foreach (ManagementObject mo in searcher.Get())
+{
+    string? model = mo["Model"] as string;
+    if (model != null && (model.Contains("Virtual") || model.Contains("VMware") || model.Contains("Xen") || model.Contains("KVM") || model.Contains("Hyper")))
+    {
+        isVM = true;
+        break;
+    }
+}
+```
+> This code may have limitations and is only applicable to the Windows platform.
+
 ## Update list
 1. Add server and client LAN chat functionality.
 2. Add TCP and UDP simulation servers.
@@ -20,5 +35,6 @@ This project is a combination of server + client, and there should be a pure cli
 13. Add an SQLite database.
 14. Add Task Plan Function.
 15. Add a project file downloader.
+
 
 #### What better suggestions and features can be proposed, and thank you for your contribution.
