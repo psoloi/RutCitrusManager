@@ -35,6 +35,11 @@ foreach (ManagementObject mo in searcher.Get())
 13. Add an SQLite database.
 14. Add Task Plan Function.
 15. Add a project file downloader.
+16. Add Server Ping Tool.
+17. Add the complete toolkit.
+18. Add Program Repairer.
+19. Add server data packet sending mode.
+20. Add client-side broadcast.
 
 
 #### What better suggestions and features can be proposed, and thank you for your contribution.
