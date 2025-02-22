@@ -1,0 +1,12 @@
+{
+  "Check_Update": true,
+  "Check_VM": true,
+  "Extension": {
+    "Enable": true,
+    "Load_Lists": [
+      "a.exe",
+      "b.dll"
+    ]
+  },
+  "OnlyMode": "None"
+}
