@@ -1,0 +1,2 @@
+# RutCitrusManager
+## At present, the program is in the test stage, many functions have not been fully developed or even not developed, time is limited. I am still in high school, this project may not be developed for a long time, and my English may not be intact.
