@@ -79,7 +79,8 @@ namespace RutCitrusManager
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            Output.Text("[white]RutCitrusSDK - Made by psoloi[/]", 1);
+            Output.Text("[white]RutCitrus - Made by psoloi[/]", 1);
+            Output.Text("[white]RutCitrusManager - https://github.com/psoloi/RutCitrusManager License:MIT [/]", 1);
 
             // 加载一些步骤
 
