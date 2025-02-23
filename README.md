@@ -1,6 +1,9 @@
 # RutCitrusManager
 ## At present, the program is in the test stage, many functions have not been fully developed or even not developed, time is limited. I am still in high school, this project may not be developed for a long time, and my English is not very good, please understand.
 
+## When using or creating any of its affiliated plugins or branches in any way, it is sufficient to indicate the source, which is only [GitHub](https://github.com/psoloi/RutCitrusManager)
+
+## The overall plan for the future
 This project is a combination of server + client, and there should be a pure client made using Winform in the future.
 
 ## Project all warnings
