@@ -31,7 +31,6 @@ foreach (ManagementObject mo in searcher.Get())
 7. Improve configuration files and expand examples.
 8. Add Extension Builder.
 9. The projects related to RutCitrus connection.
-    - API
     - Interface
     - Web
 10. Add the function of setting options.
